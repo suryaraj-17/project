@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai Mamae!</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        body {
+            background-image: url('bg.jpeg');
+            background-size: cover;
+            background-position: center top 37%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .navbar {
+            padding: 8px;
+        }
+
+        .navbar-brand img {
+            height: 50px;
+            margin-right: 10px;
+            border: 2px solid black;
+        }
+
+        .navbar-nav .nav-item {
+            margin-left: 20px;
+        }
+
+        .btn-outline-success {
+            color: orangered;
+            border-color: orangered;
+        }
+
+        .btn-outline-success:hover {
+            background-color: orangered;
+            color: white;
+        }
+
+        .card-img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .btn-custom {
+            background-color: orangered;
+            color: white;
+            border: none;
+        }
+
+        .btn-custom:hover {
+            background-color: darkorange;
+        }
+    </style>
+</head>
+<body>
+    <div class="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="teaa.jpeg" alt="Chai Mamae Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Categories
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Hot drinks</a></li>
+                                <li><a class="dropdown-item" href="#">Cool drinks</a></li>
+                                <li><a class="dropdown-item" href="#">Snacks</a></li>
+                                <li><a class="dropdown-item" href="#">Bakery items</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex align-items-center">
+                        <button class="btn btn-outline-success me-3" type="submit">Cart</button>
+                        <button class="btn btn-outline-success me-3" type="submit">Profile</button>
+                        <a href="register.html" class="btn btn-outline-success">Sign in</a>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="card border-dark mb-3" style="margin-top: 150px;">
+                    <img src="coffee.jpg" class="card-img img-fluid" alt="A steaming hot cup of tea">
+                    <div class="card-body" style="background: transparent;">
+                      <h5 class="card-title">Hot Drinks</h5>
+                      <p class="card-text">Machi sudaa oru tea sollu..</p>
+                      <a href="#" class="btn btn-custom">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card border-dark mb-3" style="margin-top: 150px;">
+                    <img src="bonda bajji.jpg" class="card-img img-fluid" alt="Crispy Bonda and Bajji">
+                    <div class="card-body" style="background: transparent;">
+                      <h5 class="card-title">Snacks</h5>
+                      <p class="card-text">Konjam oilah irupan..athigama order podathe nanba!</p>
+                      <a href="#" class="btn btn-custom">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card border-dark mb-3" style="margin-top: 150px;">
+                    <img src="biscuits.jpg" class="card-img img-fluid" alt="Crispy Biscuits">
+                    <div class="card-body" style="background: transparent;">
+                      <h5 class="card-title">Biscuits</h5>
+                      <p class="card-text">Tea oda enaiyum sethu saptu paaru chelam!</p>
+                      <a href="#" class="btn btn-custom">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card border-dark mb-3" style="margin-top:150px;">
+                    <img src="juice.jpg" class="card-img img-fluid" alt="Fresh Juice">
+                    <div class="card-body" style="background: transparent;">
+                      <h5 class="card-title">Fresh Juice</h5>
+                      <p class="card-text">Freshly squeezed for you!</p>
+                      <a href="#" class="btn btn-custom">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card border-dark mb-3" style="margin-top: 150px;">
+                    <img src="sandwitch.jpg" class="card-img img-fluid" alt="Delicious Sandwich">
+                    <div class="card-body" style="background: transparent;">
+                      <h5 class="card-title">Sandwiches</h5>
+                      <a href="#" class="btn btn-custom">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card border-dark mb-3" style="margin-top: 150px;">
+                    <img src="cooldrink.jpg" class="card-img img-fluid" alt="Chilled Cool Drink">
+                    <div class="card-body" style="background: transparent;">
+                      <h5 class="card-title">Cool Drinks</h5>
+                      <p class="card-text">Jilunu oru drink uh udane ava cooluh</p>
+                      <a href="#" class="btn btn-custom">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
